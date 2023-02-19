@@ -112,7 +112,7 @@ def five_people():
 #不要修改
 def three_people():
     windowSurface.blit(bg,(0,0))
-    winnerList = get_random_people(5)
+    winnerList = get_random_people(3)
     drawText(BJ101IDMembers[winnerList[0]].GameWindowPrint(), font, windowSurface, (WINDOWWIDTH / 3) + 50, (WINDOWHEIGHT / 3) + 50)
     drawText(BJ101IDMembers[winnerList[1]].GameWindowPrint(), font, windowSurface, (WINDOWWIDTH / 3) + 50, (WINDOWHEIGHT / 3) + 100)
     drawText(BJ101IDMembers[winnerList[2]].GameWindowPrint(), font, windowSurface, (WINDOWWIDTH / 3) + 50, (WINDOWHEIGHT / 3) + 150)
